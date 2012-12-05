@@ -28,34 +28,40 @@
 </head>
 <body <?php body_class(); ?>>
 
-	<div id="branding_wrap">
-		<header id="branding">	
-			<div class="container">
-			
-				<?php
-					// Grab the column settings from theme settings to determine the logo/menu container sizes
-					$logo_columns = $menu_columns = "eight";
-					$header_layout = cudazi_get_option( 'header_layout', 'eight|eight' );
-					$header_layout = explode('|', $header_layout);
-					if ( is_array( $header_layout ) ) {
-						$logo_columns = $header_layout[0];
-						$menu_columns = $header_layout[1];
-					}					
-				?>
-			
-				<hgroup class="<?php echo $logo_columns; ?> columns">				
-					<h1 id="logo"><?php echo cudazi_get_logo(); ?></h1>
-					<?php if ( ! cudazi_get_option( 'disable_tagline', false ) ) { ?>
-					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-					<?php } ?>
-				</hgroup>		
-				<nav class="<?php echo $menu_columns; ?> columns" id="navigation" role="navigation">
-					<?php wp_nav_menu( array( 'menu_class' => 'sf-menu clearfix', 'theme_location' => 'primary', 'fallback_cb' => 'cudazi_menu_fallback' ) ); ?>						
-					<?php echo cudazi_alternate_menu( array( 'menu_name' => 'primary', 'display' => 'select' ) ); ?>
-				</nav>
-			</div><!--//container (skeleton) -->
-		</header><!--//header-->
-	</div>
+		<div class="container">
+			<div class="sixteen columns">
+				<img src="<?php bloginfo('template_directory');?>/images/logo.png" class="rt_logo">
+			</div>
+		</div>
 		
+		<div id="branding_wrap">
+			<header id="branding">	
+				<div class="container">
+
+					<?php
+						// Grab the column settings from theme settings to determine the logo/menu container sizes
+						$logo_columns = $menu_columns = "eight";
+						$header_layout = cudazi_get_option( 'header_layout', 'eight|eight' );
+						$header_layout = explode('|', $header_layout);
+						if ( is_array( $header_layout ) ) {
+							$logo_columns = $header_layout[0];
+							$menu_columns = $header_layout[1];
+						}					
+					?>
+
+					<hgroup class="<?php echo $logo_columns; ?> columns">				
+						<h1 id="logo"><?php echo cudazi_get_logo(); ?></h1>
+						<?php if ( ! cudazi_get_option( 'disable_tagline', false ) ) { ?>
+						<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+						<?php } ?>
+					</hgroup>		
+					<nav class="<?php echo $menu_columns; ?> columns" id="navigation" role="navigation">
+						<?php wp_nav_menu( array( 'menu_class' => 'sf-menu clearfix', 'theme_location' => 'primary', 'fallback_cb' => 'cudazi_menu_fallback' ) ); ?>						
+						<?php echo cudazi_alternate_menu( array( 'menu_name' => 'primary', 'display' => 'select' ) ); ?>
+					</nav>
+				</div><!--//container (skeleton) -->
+			</header><!--//header-->
+
+		</div>
 	<section id="main">
 

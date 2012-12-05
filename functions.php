@@ -55,6 +55,8 @@
 			wp_register_style('cudazi_screen', get_template_directory_uri() . '/css/screen.css',false, CUDAZI_THEME_VERSION,'screen');
 			wp_register_style('cudazi_print', get_template_directory_uri() . '/css/print.css',false, CUDAZI_THEME_VERSION,'print');
 			wp_register_style('cudazi_style', get_bloginfo( 'stylesheet_url' ),false, CUDAZI_THEME_VERSION, 'screen');
+			wp_register_style('cudazi_custom', get_template_directory_uri() . '/css/custom.css',false, CUDAZI_THEME_VERSION,'screen');
+			
 			
 			// Load CSS			
 			wp_enqueue_style('cudazi_skeleton_base');
@@ -63,6 +65,7 @@
 			wp_enqueue_style('cudazi_screen');
 			wp_enqueue_style('cudazi_print');			
 			wp_enqueue_style('cudazi_style');
+			wp_enqueue_style('cudazi_custom');
 		
 			// Register Scripts						
 			wp_register_script("cudazi_plugins_combined", get_template_directory_uri() . "/js/plugins-combined.js", false, CUDAZI_THEME_VERSION, false);
