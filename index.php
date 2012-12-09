@@ -3,8 +3,24 @@
 * The main template file.
 */
 get_header(); ?>
+	
 
    <div class="container clearfix">
+	<div class="flexslider">
+	<ul class="slides">
+		<?php
+		$args = array(
+		'post_type' => 'slider',
+		'posts_per_page' => -1	
+		);
+		$wp_slider_query = new WP_Query($args); 
+		while($wp_slider_query->have_posts()) : $wp_slider_query->the_post(); ?>
+			<li><?php the_post_thumbnail("full"); ?></li>
+			<?php endwhile; 
+		 	wp_reset_query(); ?>
+	</ul></div>
+	
+	
 		
 		<div id="primary" role="main" class="twelve columns">
 			

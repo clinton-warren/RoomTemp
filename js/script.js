@@ -1,5 +1,4 @@
-jQuery.noConflict();
-jQuery(function($) { 
+jQuery(document).ready(function($) { 
 
 	
 	
@@ -101,6 +100,27 @@ jQuery(function($) {
 	$('div.gallery').addClass('clearfix');
 	
 	
-
+	/* Garance Dore style menu */
+	
+	    $(window).scroll(function (e) {
+	        // Check if we're in the range where we want to show our popup
+	        if ($(this).scrollTop() > 465 ){
+	            // Make sure it's not already showing
+	            if (!$('#top-menu').is(":visible")) {
+	                $('#top-menu').fadeIn(1000);
+	            }
+	        } else if ($('#top-menu').is(":visible")) {
+	            $('#top-menu').fadeOut(500);
+	        }
+	    });
+	
+		
+		/* Initialize Flexslider */
+		
+		$('.flexslider').flexslider({
+		    animation: "slide"
+		  });
+		
+	
 
 }); // end jQuery dom ready

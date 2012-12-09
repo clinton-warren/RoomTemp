@@ -56,7 +56,7 @@
 			wp_register_style('cudazi_print', get_template_directory_uri() . '/css/print.css',false, CUDAZI_THEME_VERSION,'print');
 			wp_register_style('cudazi_style', get_bloginfo( 'stylesheet_url' ),false, CUDAZI_THEME_VERSION, 'screen');
 			wp_register_style('cudazi_custom', get_template_directory_uri() . '/css/custom.css',false, CUDAZI_THEME_VERSION,'screen');
-			
+			wp_register_style('flexslider', get_template_directory_uri() . '/css/flexslider.css',false, CUDAZI_THEME_VERSION,'screen');
 			
 			// Load CSS			
 			wp_enqueue_style('cudazi_skeleton_base');
@@ -66,16 +66,22 @@
 			wp_enqueue_style('cudazi_print');			
 			wp_enqueue_style('cudazi_style');
 			wp_enqueue_style('cudazi_custom');
+			wp_enqueue_style('flexslider');
+			
 		
 			// Register Scripts						
 			wp_register_script("cudazi_plugins_combined", get_template_directory_uri() . "/js/plugins-combined.js", false, CUDAZI_THEME_VERSION, false);
 			wp_register_script("cudazi_general", get_template_directory_uri() . "/js/script.js", false, CUDAZI_THEME_VERSION, false);
+			wp_register_script("flexslider", get_template_directory_uri() . "/js/jquery.flexslider-min.js", false, CUDAZI_THEME_VERSION, false);
+			
 			
 			// Load Scripts
 			if ( is_singular() && get_option( 'thread_comments' ) )	{ wp_enqueue_script( 'comment-reply' ); }
 			wp_enqueue_script("jquery");
 			wp_enqueue_script("cudazi_plugins_combined");
-			wp_enqueue_script("cudazi_general");				
+			wp_enqueue_script("cudazi_general");
+			wp_enqueue_script("flexslider");
+							
 		}
 	}
 	

@@ -73,8 +73,46 @@
 			flush_rewrite_rules();
 		}		
 	}
-	
-	
+
+	// Register Slider Image post type
+	add_action('init', 'slider_register');
+	if ( ! function_exists('slider_register' ) ) {
+		function slider_register() {
+			$labels_slider = array(
+				'add_new' => __('Add New', 'cudazi'),
+				'add_new_item' => __('Add New Slider Image', 'cudazi'),
+				'edit_item' => __('Edit Slider Image', 'cudazi'),
+				'menu_name' => __('Slider', 'cudazi'),
+				'name' => __('Slider', 'cudazi'),
+				'new_item' => __('New Slider Image', 'cudazi'),
+				'not_found' =>  __('No slider images found', 'cudazi'),
+				'not_found_in_trash' => __('No slider images found in Trash', 'cudazi'), 
+				'parent_item_colon' => '',
+				'singular_name' => __('Slider image', 'post type singular name', 'cudazi'),
+				'search_items' => __('Search Slider images', 'cudazi'),
+				'view_item' => __('View Slider image', 'cudazi'),
+			);
+			$args_slider = array(
+				'capability_type' => 'post',
+				'has_archive' => true, 
+				'hierarchical' => false,
+				'labels' => $labels_slider,
+				'menu_position' => 5,
+				'public' => true,
+				'publicly_queryable' => true,
+				'query_var' => true,
+				/* 'rewrite' => array( 'slug' => 'portfolio', 'with_front' => true ), <----- You can set this BUT can't have a page with a slug of portfolio. */
+				'rewrite' => false,
+				'show_in_menu' => true, 
+				'show_ui' => true, 
+				'supports' => array( 'thumbnail', 'title'),
+			);
+			register_post_type( 'slider', $args_slider );		
+			
+		}		
+	}
+
+add_theme_support( 'post-thumbnails' ); 
 
 
 	// Portfolio Categories		
