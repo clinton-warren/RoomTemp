@@ -115,12 +115,30 @@ jQuery(document).ready(function($) {
 	    });
 	
 		
-		/* Initialize Flexslider */
-		
+/* Initialize Flexslider */
+	
 		$('.flexslider').flexslider({
 		    animation: "slide"
 		  });
 		
-	
+
+$('#search-2 #s').val("Search");
+		// function to remove values from fields once selected and replace with default value if unselected
+		$('#search-2 #s').each(function() {
+		    var default_value = this.value;
+
+		    $(this).focus(function() {
+		        if(this.value == default_value) {
+		            this.value = '';
+
+		        }
+		    });
+		    $(this).blur(function() {
+		        if(this.value == '') {
+		            this.value = default_value;
+		        }
+		    });
+
+		});	
 
 }); // end jQuery dom ready

@@ -1,24 +1,6 @@
 /* Stylesheet / CSS */
-@font-face {
-    font-family: 'proxima_nova_cn_rgbold';
-    src: url('fonts/proximanovacond-bold-webfont.eot');
-    src: url('fonts/proximanovacond-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanovacond-bold-webfont.woff') format('woff'),
-         url('fonts/proximanovacond-bold-webfont.ttf') format('truetype'),
-         url('fonts/proximanovacond-bold-webfont.svg#proxima_nova_cn_rgbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'proxima_nova_cn_ltbold';
-    src: url('fonts/proximanovacond-semibold-webfont.eot');
-    src: url('fonts/proximanovacond-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanovacond-semibold-webfont.woff') format('woff'),
-         url('fonts/proximanovacond-semibold-webfont.ttf') format('truetype'),
-         url('fonts/proximanovacond-semibold-webfont.svg#proxima_nova_cn_ltbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+
+
 @font-face {
     font-family: 'proxima_nova_ltregular';
     src: url('fonts/proximanova-light-webfont.eot');
@@ -30,6 +12,90 @@
     font-style: normal;
 }
 
+
+
+@font-face {
+    font-family: 'proxima_nova_cn_rgregular';
+    src: url('fonts/proximanovacond-reg-webfont.eot');
+    src: url('fonts/proximanovacond-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovacond-reg-webfont.woff') format('woff'),
+         url('fonts/proximanovacond-reg-webfont.ttf') format('truetype'),
+         url('fonts/proximanovacond-reg-webfont.svg#proxima_nova_cn_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'proxima_nova_excn_rgregular';
+    src: url('fonts/proximanovaexcn-reg-webfont.eot');
+    src: url('fonts/proximanovaexcn-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovaexcn-reg-webfont.woff') format('woff'),
+         url('fonts/proximanovaexcn-reg-webfont.ttf') format('truetype'),
+         url('fonts/proximanovaexcn-reg-webfont.svg#proxima_nova_excn_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('fonts/proximanova-bold-webfont.eot');
+    src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novaextrabold';
+    src: url('fonts/proximanova-extrabold-webfont.eot');
+    src: url('fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-extrabold-webfont.woff') format('woff'),
+         url('fonts/proximanova-extrabold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_cn_rgbold';
+    src: url('fonts/proximanovacond-bold-webfont.eot');
+    src: url('fonts/proximanovacond-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovacond-bold-webfont.woff') format('woff'),
+         url('fonts/proximanovacond-bold-webfont.ttf') format('truetype'),
+         url('fonts/proximanovacond-bold-webfont.svg#proxima_nova_cn_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_nova_excn_rgbold';
+    src: url('fonts/proximanovaexcn-bold-webfont.eot');
+    src: url('fonts/proximanovaexcn-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovaexcn-bold-webfont.woff') format('woff'),
+         url('fonts/proximanovaexcn-bold-webfont.ttf') format('truetype'),
+         url('fonts/proximanovaexcn-bold-webfont.svg#proxima_nova_excn_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('fonts/proximanova-regular-webfont.eot');
+    src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Many base styles are set in base.css, part of the skeleton framework
 ----------------------------------------------------------------------------------------------------*/
@@ -62,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 a, a:link, a:visited, a:hover, a:active, a:focus,
 .entry-title a:hover,
 .portfolio-item-meta a{
-	color: #e86a4d;
+	color: #E61C24;
 	text-decoration: none;
 }
 
@@ -173,11 +239,12 @@ article,
 	margin-top: 20px;
 }
 .entry-meta {
-	padding: 10px 30px 0 30px;
+	padding: 10px 30px 10px 30px;
 	margin: 30px -30px 0 -30px;
 	border-top: 1px solid #eee;	
 	position: relative;
 	font-size: 11px;
+	border-bottom: 1px solid #eee;
 }
 
 /* Remove padding for posts with full-width featured image capability and re-add it below in a wrap */
@@ -232,7 +299,6 @@ article,
 	right: 30px;
 }
 .entry-title {
-	font-style: italic;
 	margin-bottom: 20px;	
 }
 .archive-title {
@@ -240,7 +306,10 @@ article,
 }
 .entry-title,
 .entry-title a {
+	font-family:'proxima_nova_ltregular';
 	color: #444;
+	font-size:46px;
+	line-height:48px;
 }
 /* 404 page, not found*/
 #post-0 {
@@ -253,12 +322,14 @@ article,
 	top: 71px;
 	width: 60px;
 	height: 25px;
-	line-height: 26px;
-	font-size: 12px;
+	line-height: 20px;
+	font-size: 11px;
+	color:black !important;
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;	
-	background: #ccc;		
+	background: #ccc;
+	font-family: 'proxima_novaextrabold';		
 }
 .sticky {
 	/* Add additional styles for sticky posts if needed */
@@ -275,7 +346,7 @@ article,
 	position: absolute;
 	left: -40px;
 	top: 30px;	
-	background-color: #e86a4d;	
+	background-color: #b7b7b7;	
 	background-image: url(../images/sprites_post_types.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -333,12 +404,12 @@ article,
 .post-pagination .next,
 .post-pagination .prev,
 .post-pagination-single span,
-.post-permalink a,
-.post-comment-link a {
+.post-permalink a {
 	background-image: url(../images/sprites_20.png);
 	background-repeat: no-repeat;
 	padding-left: 20px;
 }
+
 .post-pagination-single span {
 	display: block;
 	line-height: 100%;
@@ -346,6 +417,11 @@ article,
 }
 .post-comment-link a {
 	background-position: 0 -4px;
+	 font-family: 'proxima_nova_excn_rgregular';
+	font-size:18px;
+	line-height:22px;
+	padding-left:20px;
+	color:black !important;
 }
 .post-permalink a {
 	background-position: 0 -24px;
@@ -579,11 +655,11 @@ video {
 .sf-menu a {	
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 16px;
 	color:black;
 	display:		block;
 	padding-right:30px;
-	font-family:'proxima_nova_ltregular';
+	font-family: 'proxima_nova_cn_rgbold';
 }
 .sf-menu li:last-child a {
 	padding-right: 0;
@@ -760,18 +836,19 @@ a img:hover {
 	padding: 0 20px;
 	margin: 0;
 	float: left;
-	
-	height: 35px;
+	border:1px solid #EEEEEE;
+	height: 33px;
+	font-family: 'proxima_nova_rgregular';
+	color:#b3b3b3;
+	font-size:14px;
 }
 #searchsubmit {
 	z-index: 2;
 	position: absolute;
-	right: 10px;
+	right: 40px;
 	top: 8px;
-
 	width: 20px;
 	height: 20px;
-	
 	background: url(../images/sprites_20.png) no-repeat 0 -100px;
 	text-indent: -9999px;
 	border: none;
@@ -814,9 +891,13 @@ body.search-results .entry-date {
 
 h3.widgettitle,
 .widget #wp-calendar caption {
-	font-size: 15px;
-	font-style: italic;
+	font-size: 16px;
+	line-height:20px;
+	 font-family: 'proxima_nova_cn_rgbold';
 	margin-bottom: 4px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:#635E5B;
 }
 h3.widgettitle a {
 }
@@ -916,8 +997,7 @@ ul.tweet_list {
 }
 .widget ul.tweet_list .tweet_time a {
 	text-decoration: none;
-	font-style: italic;
-	font-size: 10px;
+	font-size: 12px;
 }
 .widget ul.tweet_list li {
 	padding: 0 0 15px 0;

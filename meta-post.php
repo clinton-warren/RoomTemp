@@ -3,7 +3,7 @@
 	<?php if ( is_single() ) { ?>		
 		<span class="post-author"><?php _e('Posted by','cudazi'); ?> <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author"><?php the_author() ; ?></a></span>
 	<?php }else{ ?>	
-		<?php if ( comments_open() ) { ?><span class="post-comment-link"><?php comments_popup_link( __( '0 Responses', 'cudazi' ), __( '1 Response', 'cudazi' ), __( '% Responses', 'cudazi' ), null, '' ); ?></span><?php } ?>	
+		<?php if ( comments_open() ) { ?><span class="post-comment-link"><?php comments_popup_link( __( '0 Comments', 'cudazi' ), __( '1 Comment', 'cudazi' ), __( '% Comments', 'cudazi' ), null, '' ); ?></span><?php } ?>	
 	<?php } ?>
 	
 	<?php 

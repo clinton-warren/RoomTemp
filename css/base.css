@@ -75,7 +75,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; }
+	p { margin: 0 0 20px 0; font-family:'proxima_nova_rgregular'; font-size:16px; line-height:22px; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -84,7 +84,7 @@
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote, blockquote p { line-height: 30px; color: #777; font-size:22px; font-family: 'proxima_nova_ltregular';}
 	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
@@ -92,6 +92,8 @@
 
 	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
+/* Quote Citation */
+   cite { font-family: 'proxima_nova_rgbold';font-size:22px; line-height:30px}
 
 /* #Links
 ================================================== */

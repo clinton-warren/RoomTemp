@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/header.php</string>
+	<string>css/custom.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,35 +21,93 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/css/custom.css</key>
+		<key>css/base.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>77</integer>
 				<key>line</key>
-				<integer>1</integer>
+				<integer>95</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>4</integer>
+		</dict>
+		<key>css/custom.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>40</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/css/screen.css</key>
+		<key>css/flexslider.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>72</integer>
 				<key>line</key>
-				<integer>87</integer>
+				<integer>34</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>44</integer>
+			<integer>6</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/functions.php</key>
+		<key>css/print.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>css/screen.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>39</integer>
+				<key>line</key>
+				<integer>42</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>60</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>42</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>39</integer>
+				<key>line</key>
+				<integer>42</integer>
+			</dict>
+		</dict>
+		<key>functions.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -63,21 +121,21 @@
 			<key>firstVisibleLine</key>
 			<integer>30</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/header.php</key>
+		<key>header.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>29</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>28</integer>
+				<integer>6</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/index.php</key>
+		<key>index.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -91,7 +149,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/js/plugins-combined.js</key>
+		<key>js/plugins-combined.js</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -105,7 +163,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/js/script.js</key>
+		<key>js/script.js</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -119,7 +177,7 @@
 			<key>firstVisibleLine</key>
 			<integer>50</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/comments.php</key>
+		<key>libraries/comments.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -133,7 +191,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/custom-post-types.php</key>
+		<key>libraries/custom-post-types.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -147,7 +205,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/debug.php</key>
+		<key>libraries/debug.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -161,7 +219,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/featuredimages.php</key>
+		<key>libraries/featuredimages.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -175,7 +233,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/filters.php</key>
+		<key>libraries/filters.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -189,7 +247,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/meta-boxes.php</key>
+		<key>libraries/meta-boxes.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -203,7 +261,7 @@
 			<key>firstVisibleLine</key>
 			<integer>13</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/shortcodes.php</key>
+		<key>libraries/shortcodes.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -217,7 +275,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/theme-options.php</key>
+		<key>libraries/theme-options.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -231,7 +289,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/themesetup.php</key>
+		<key>libraries/themesetup.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -245,7 +303,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/widget-areas.php</key>
+		<key>libraries/widget-areas.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -262,23 +320,26 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/css/screen.css</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/index.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/header.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/css/custom.css</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/functions.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/theme-options.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/shortcodes.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/filters.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/meta-boxes.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/featuredimages.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/debug.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/comments.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/custom-post-types.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/js/plugins-combined.js</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/js/script.js</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/themesetup.php</string>
-		<string>/Volumes/Macintosh HD-1/Library/WebServer/Documents/roomtemp/wp-content/themes/roomtemp/libraries/widget-areas.php</string>
+		<string>css/screen.css</string>
+		<string>index.php</string>
+		<string>header.php</string>
+		<string>css/base.css</string>
+		<string>css/print.css</string>
+		<string>css/custom.css</string>
+		<string>css/flexslider.css</string>
+		<string>functions.php</string>
+		<string>libraries/theme-options.php</string>
+		<string>libraries/shortcodes.php</string>
+		<string>libraries/filters.php</string>
+		<string>libraries/meta-boxes.php</string>
+		<string>libraries/featuredimages.php</string>
+		<string>libraries/debug.php</string>
+		<string>libraries/comments.php</string>
+		<string>libraries/custom-post-types.php</string>
+		<string>js/plugins-combined.js</string>
+		<string>js/script.js</string>
+		<string>libraries/themesetup.php</string>
+		<string>libraries/widget-areas.php</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
