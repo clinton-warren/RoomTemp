@@ -1,8 +1,8 @@
+/* HOMEPAGE STYLING */
+
 .rt_logo {
 	max-width:100%;
 }
-
-
 #top-menu {
 	position:fixed;
 	top:40px;
@@ -15,7 +15,6 @@
 .flexslider li {
 	margin-bottom:0px;
 }
-
 .post-tags a {
 	color:black !important;
 	text-transform:uppercase;
@@ -45,4 +44,34 @@
 .follow-icon {
 	float:left;
 	margin-right:5px;
+}
+.homepage-featured-posts {
+	width:100%;
+	background-color:#f2f2f2;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.homepage-featured-posts .columns {
+	margin-right:45px;
+}
+.homepage-featured-posts-header {
+	text-align:center;
+	text-transform:uppercase;
+	font-size:24px;
+	font-family: 'proxima_nova_cn_rgbold';
+}
+.homepage-featured-posts-title {
+	font-family: 'proxima_nova_ltregular';
+	font-size:32px;
+	line-height:32px;
+	text-align:center;
+	padding-top:10px;
+}
+.homepage-featured-posts-date {
+	text-transform:uppercase;
+	font-family: 'proxima_novaextrabold';
+	color:#a6a6a6;
+	font-size:12px;
+	line-height:20px;
+	text-align:center;
 }

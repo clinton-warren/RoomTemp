@@ -72,9 +72,6 @@
     font-style: normal;
 }
 
-
-
-
 @font-face {
     font-family: 'proxima_nova_excn_rgbold';
     src: url('fonts/proximanovaexcn-bold-webfont.eot');
@@ -1325,9 +1322,7 @@ body.wp-editor {
 		margin-top: 30px;
 	}
 	
-	.featured-image {
-		margin-bottom: -30px;
-	}
+	
 	
 	.portfolio-item-wrap .columns {
 		margin-bottom: 22px;

@@ -12,8 +12,8 @@
 			</time>
 		</header>
 		<?php 
-			$ft_image_atts = array( 'fallback_to_first_attached' => false );
-			echo cudazi_featured_image( $ft_image_atts ); 
+					$ft_image_atts = array( 'fallback_to_first_attached' => false );
+					echo cudazi_featured_image( $ft_image_atts );
 		?>
 	
 		<div class="entry-content">
