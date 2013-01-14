@@ -3,13 +3,16 @@
 .rt_logo {
 	max-width:100%;
 }
-#top-menu {
+.top-menu-wrap {
 	position:fixed;
-	top:40px;
+	top:0px;
 	width:100%;
 	height:50px;
 	z-index:10;
 	background:url(../images/transparent-menu-bg.png) repeat;
+}
+.top-sf-menu {
+	margin-top:20px;
 }
 
 .flexslider li {
@@ -67,6 +70,13 @@
 	text-align:center;
 	padding-top:10px;
 }
+.homepage-featured-posts-title a {
+	color:#444444;
+}
+.homepage-featured-posts-title a:hover {
+	text-decoration:none;
+	color:#e61C24;
+}
 .homepage-featured-posts-date {
 	text-transform:uppercase;
 	font-family: 'proxima_novaextrabold';
@@ -74,4 +84,65 @@
 	font-size:12px;
 	line-height:20px;
 	text-align:center;
+}
+
+/* CUSTOM FOOTER STYLING */
+
+#footer {
+	background-color:#221f1f;
+	height:150px;
+}
+.footer-nav {
+	margin-top:50px;
+}
+.footer-nav li{
+	float:left;
+	font-family: 'proxima_nova_rgbold';
+	font-size:13px;
+	line-height:16px;
+	color:#b3b3b3;
+	margin-right:9.25%;
+	text-transform:uppercase;
+}
+.footer-first {
+	margin-left:120px !important;
+}
+.footer-last {
+	margin-right:0px !important;
+}
+.footer-copyright {
+	font-family: 'proxima_nova_rgregular';
+	font-size:14px;
+	line-height:23px;
+}
+.footer-credits {
+	font-family: 'proxima_nova_rgbold';
+	color:#555555 !important;
+}
+
+/* ADDITIONAL CUSTOM STYLING */
+
+.home-featured {
+	max-width:100%;
+	height:auto;
+}
+
+.page-id-28 .entry-title, .page-id-30 .entry-title {
+	display:none;
+}
+.grey-content-div {
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:30px;
+	padding-bottom:40px;
+	background-color:#f2f2f2;
+}
+.grey-content-div h3 {
+	color:#E61C24;
+}
+.single-portfolio .featured-image {
+	display:none;
+}
+.soliloquy-direction-nav {
+	display:none !important;
 }

@@ -27,8 +27,14 @@
 	?>		
 </head>
 <body <?php body_class(); ?>>
-<div id="top-menu" style="display:none"><?php wp_nav_menu( array( 'menu_class' => 'sf-menu clearfix', 'theme_location' => 'primary', 'fallback_cb' => 'cudazi_menu_fallback' ) ); ?></div>
+	<div class="top-menu-wrap" style="display:none" >
 		<div class="container">
+			<div class="sixteen columns"><img src="<?php bloginfo('template_directory')?>/images/menu-logo.png" style="float:left"> <?php wp_nav_menu( array( 'menu_class' => 'sf-menu clearfix top-sf-menu', 'theme_location' => 'primary', 'fallback_cb' => 'cudazi_menu_fallback' ) ); ?></div>
+		</div>
+	</div>
+		
+		<div class="container">
+	
 			<div class="sixteen columns">
 				<img src="<?php bloginfo('template_directory');?>/images/logo.png" class="rt_logo">
 			</div>

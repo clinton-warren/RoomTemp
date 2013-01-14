@@ -12,12 +12,16 @@
 			</time>
 		</header>
 		<?php 
+				    $display_featured = get_post_meta($post->ID, 'output_featured', true); 
+				
+				if($display_featured != 1) {
 					$ft_image_atts = array( 'fallback_to_first_attached' => false );
 					echo cudazi_featured_image( $ft_image_atts );
+				}
 		?>
 	
 		<div class="entry-content">
-			<?php the_content( __( 'Read More...', 'cudazi' ) ); ?>
+			<?php the_content( __( 'Read More...', 'cudazi' ) );  ?>
 			<?php if ( is_single() ) { wp_link_pages( array( 'before' => '' . __( '<p>Pages:', 'cudazi' ), 'after' => '</p>' ) ); } ?>
 		</div><!--//entry-content-->
 						

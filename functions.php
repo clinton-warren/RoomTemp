@@ -410,8 +410,34 @@
 	}	
 	add_action('wp_footer','cudazi_google_analytics_code');
 	
+	// modify homepage query to not display featured posts in main loop
+	function rt_remove_featured($query) {
+		if($query->is_home) {
+			$query->set('category__not_in', 16);
+		}
+		
+	}
 	
 	
+	
+//	add_filter('pre_get_posts', 'rt_remove_featured');
+	
+	
+	
+	// Disable Admin Bar for all users
+	add_filter('show_admin_bar', '__return_false');
+
+	// Remove Admin Bar Options from all users' Profile page
+	add_action('admin_print_scripts-profile.php', 'hide_admin_bar_prefs');
+	function hide_admin_bar_prefs() {
+
+	?>
+	<style type="text/css">
+	    .show-admin-bar { display: none; }
+	</style>
+	<?php
+
+	}
 	
 	
 	

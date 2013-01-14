@@ -106,11 +106,11 @@ jQuery(document).ready(function($) {
 	        // Check if we're in the range where we want to show our popup
 	        if ($(this).scrollTop() > 465 ){
 	            // Make sure it's not already showing
-	            if (!$('#top-menu').is(":visible")) {
-	                $('#top-menu').fadeIn(1000);
+	            if (!$('.top-menu-wrap').is(":visible")) {
+	                $('.top-menu-wrap').fadeIn(1000);
 	            }
-	        } else if ($('#top-menu').is(":visible")) {
-	            $('#top-menu').fadeOut(500);
+	        } else if ($('.top-menu-wrap').is(":visible")) {
+	            $('.top-menu-wrap').fadeOut(500);
 	        }
 	    });
 	
@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
 
 $('#search-2 #s').val("Search");
 		// function to remove values from fields once selected and replace with default value if unselected
-		$('#search-2 #s').each(function() {
+		$('#search-2 #s, .cf7-box').each(function() {
 		    var default_value = this.value;
 
 		    $(this).focus(function() {

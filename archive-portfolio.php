@@ -135,7 +135,7 @@ get_header();
 		// Portfolio Item
 		$output .= "<article class='portfolio-item " . $grid_size . ' ' . $alpha_omega . $tag_list . " columns'>";							
 			if ( $featured_image ) {					
-				$output .= "<a rel='gallery' href='" . $full_size_featured_image . "'>" . $featured_image . "</a>";
+				$output .= "<a rel='gallery' href='" . get_permalink() . "'>" . $featured_image . "</a>";
 			}else{
 				$output .= __('No featured image set for this post!','cudazi');
 			}				
