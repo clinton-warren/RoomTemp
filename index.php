@@ -7,8 +7,11 @@ get_header(); ?>
 
    <div class="container clearfix">
 	
+	<?php $collage = cudazi_get_option('collage-image', 4); ?>
+	
+	
 	<div class="sixteen columns">
-		<img src="<?php bloginfo('template_directory')?>/images/WHITEPEPPER.jpg" class="home-featured">
+		<img src="<?php echo $collage; ?>" class="home-featured">
 	</div>
 	
 		

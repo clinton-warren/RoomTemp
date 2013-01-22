@@ -38,10 +38,11 @@ get_header();
 
 
 
+
 <?php if ( ! $from_page_template ) { /* if page is not pulled through a page template, wrap in appropriate divs and change functionality */ ?>
 <div class="container clearfix">	
 	<div id="primary" role="main" class="sixteen columns">
-	
+
 	<?php 
 		$current_term = '';
 		

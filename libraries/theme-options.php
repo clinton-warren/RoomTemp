@@ -173,6 +173,23 @@ function theme_options_do_page() {
 					</td>
 				</tr>
 				
+					<?php
+					 $field_key = 'collage-image';
+					 if ( ! isset( $options[$field_key] ) )
+					 	$options[$field_key] = '';
+					?>
+					<tr valign="top"><th scope="row"><?php _e( 'Collage Image URL', 'cudazi' ); ?></th>
+						<td>
+							<input id="<?php echo $field_key; ?>" class="regular-text" type="text" name="cudazi_theme_options[<?php echo $field_key; ?>]" value="<?php esc_attr_e( $options[$field_key] ); ?>" />
+							<br />
+							<span class="description"><?php _e( 'Enter the full URL to the collage image.', 'cudazi' ); ?></span>
+							<br />
+							<span class="description"><?php _e( 'Tip: Upload it in the Media Library and then copy the given File URL.', 'cudazi' ); ?></span>
+						</td>
+					</tr>
+					
+					
+				
 				
 				<?php
 				 $field_key = 'disable_tagline';

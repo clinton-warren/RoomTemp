@@ -101,8 +101,11 @@
 	font-size:13px;
 	line-height:16px;
 	color:#b3b3b3;
-	margin-right:9.25%;
+	margin-right:6.15%;
 	text-transform:uppercase;
+}
+.footer-nav li a{
+	color:white;
 }
 .footer-first {
 	margin-left:120px !important;
@@ -120,11 +123,42 @@
 	color:#555555 !important;
 }
 
+/* PORTFOLIO PAGE */
+.portfolio-quote {
+	width:100%;
+	padding:20px;
+	background-color:#f2f2f2;
+	margin-bottom:40px;
+}
+.portfolio-quote h2, .portfolio-quote h3 {
+	text-align:center;
+}
+.portfolio-quote h2 {
+	font-size:30px;
+	text-shadow:none;
+}
+.portfolio-quote h3{
+	font-size:18px;
+	margin-bottom:0px;
+}
+
+.portfolio-filter {
+	background-color:#E61C24;
+	width:100%;
+}
+.portfolio-filter,
+.portfolio-filter a,
+.portfolio-filter a:link,
+.portfolio-filter a:visited{
+	color:white;
+}
+
 /* ADDITIONAL CUSTOM STYLING */
 
 .home-featured {
 	max-width:100%;
 	height:auto;
+	margin-bottom:15px;
 }
 
 .page-id-28 .entry-title, .page-id-30 .entry-title {

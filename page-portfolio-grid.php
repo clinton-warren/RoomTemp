@@ -7,17 +7,28 @@ get_header(); ?>
 <div class="container clearfix">
 		
 	<div id="primary" role="main" class="sixteen columns">
-		
-			<?php 			
+				<?php 
+				global $post;
+				$quote = get_post_meta($post->ID, 'quote', true); ?>
 				
+				<div class="portfolio-quote"> 
+				<h2><?php echo $quote; ?></h2>
+				<h3>-MOSHE AELYON</h3>
+				</div>
+				
+				
+				
+			
+				
+								
+				
+				<?php
 				// Grab the standard page content above the portfolio items
 				// Disable comments on this page
 				global $post;
-				$post->comment_status="closed";						
-				get_template_part( 'content', 'page' ); 
-				
+				$post->comment_status="closed";
 				// Get page variable from querystring
-				$paged = 1;
+			    $paged = 1;
 				if ( get_query_var('paged') ) $paged = get_query_var('paged');
 				if ( get_query_var('page') ) $paged = get_query_var('page');			
 				
@@ -54,7 +65,7 @@ get_header(); ?>
 				if ( $posts_per_page_override ) {
 					$add_query .= "&posts_per_page=" . $posts_per_page_override;
 				}else{
-					$add_query .= "&posts_per_page=8";
+					$add_query .= "&posts_per_page=16";
 				}
 				
 				// Run Modified Query
